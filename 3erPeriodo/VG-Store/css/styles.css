@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(to right, #2A4AFF,#C93DB2);
+    padding-bottom: 20px;
+}
+
+.top-bar{
+    background-color: black;
+    height: 40px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar__social-media{
+    margin-left: 20px;
+}
+
+.top-bar__account{
+    margin-right: 30px;
+}
+
+.top-bar__account li{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: regular;
+    color: white;
+}
+
+.top-bar__account a{
+    color: white;
+    text-decoration: none;
+}
+
+.encabezado-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-menu{
+    width: 250px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.menu-ppal{
+    margin-right: 30px;
+}
+
+.menu-ppal li{
+    display: inline-block;
+}
+
+.menu-ppal a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner-destacado{
+    width: 100vw;
+    height: 700px;
+    background-image: url(../img/vg-gamestore-banner-ratchet-clanck-rift-apart.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.boton-banner-destacado{
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #00439C;
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: solid 10px; 
+    border-bottom-color: #277CD8;
+    margin-right: 100px;
+    margin-top: 50px;
+    cursor:pointer;
+}
+
+.boton-banner-destacado:hover{
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #277CD8;
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: solid 10px; 
+    border-bottom-color: #00439C;
+    margin-right: 100px;
+    margin-top: 50px;
+    cursor:pointer;
+}
+
+.cajas-marcas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+}
+
+.caja-marca{
+    border: solid 10px;
+    border-color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-marca img{
+    width: 200px;
+    height: 200px;
+}
+
+#caja-ps{
+    background-color: #00439C;
+}
+
+#caja-nintendo{
+    background-color: red;
+}
+#caja-xbox{
+    background-color: #077D07;
+}
